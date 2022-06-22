@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(238, 248, 255);
+}
+p{
+  font-family: sans-serif;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.myButton {
+  box-shadow: 15px 15px 20px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #00bbff;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  width: 23%;
+  padding: 70px 0px;
+  margin: 0.5%;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
